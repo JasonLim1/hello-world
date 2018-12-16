@@ -1,0 +1,4 @@
+sudo apt-get update
+  Download raspberry pi updates
+sudo apt-get upgrade
+  Update raspberry pi
