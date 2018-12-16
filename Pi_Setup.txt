@@ -1,4 +1,11 @@
-sudo apt-get update
-  Download raspberry pi updates
-sudo apt-get upgrade
-  Update raspberry pi
+For Updating
+  1. sudo apt-get update (downloads raspberry pi updates)
+  2. sudo apt-get upgrade (applies updates)
+
+For slow wireless mouse
+  1. sudo nano /boot/cmdline.txt
+  2. Go to the very end of the text line
+  3. Type: usbhid.mousepoll=0
+
+For SSH and/or VNC
+  1.
