@@ -5,7 +5,11 @@ For Updating
 For slow wireless mouse
   1. sudo nano /boot/cmdline.txt
   2. Go to the very end of the text line
-  3. Type: usbhid.mousepoll=0
+  3. Type "usbhid.mousepoll=0"
 
 For SSH and/or VNC
-  1.
+  1. hostname -I (obtain raspiberry pi IP addres)
+  2. Enable SSH and VNC in config
+  3. In command line type "vncserver :1" this will start a vnc server 1
+  4. To kill the server type "vncserver -kill :1"
+  
